@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #dcdcdc;;
+}
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</style>
+</head>
+<body>
+<h1 style="font-family:verdana;">Dharsana R</h1>
+<h4 style="font-family:verdana;">-student of Artificial intelligence and data science</h4>
+<h2 style="font-family:verdana;">Contact</h2>
+<i class="glyphicon glyphicon-envelope"style="font-size:12px;"></i>
+<a href="https://717821i112@kce.ac.in/"> 717821i112@kce.ac.in</a>
+<br>
+<i class="fa fa-linkedin-square" style="font-size:12px;"></i>
+<a href="https://www.linkedin.com/in/dharsana-r-40629426a"> Dharsana R</a>
+<br>
+<i class="fa fa-phone" style="font-size:24px;"></i>
+<a>9894567152</a>
+<h2 style="font-family:verdana;">About Me</h2>
+<p>Currently pursuing B.Tech Artificial intelligence and data science degree at Karpagam College of Engineering. </p>
+<h2 style="font-family:verdana;">Education</h2>
+<table style="width:100%">
+  <tr>
+    <th>Qualification</th>
+    <th>Name of the Institution</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>SSLC</td>
+    <td>Kongu Matric Higher Secondary School</td>
+    <td>2019</td>
+  </tr>
+  <tr>
+    <td>HSC</td>
+    <td>Kongu Matric Higher Secondary School</td>
+    <td>2021</td>
+  </tr>
+  <tr>
+    <td>UG-PROGRAMME</td>
+    <td>Karpagam College of Engineering</td>
+    <td>2025</td>
+  </tr>
+</table>
+<h2 style="font-family:verdana;">Skills</h2>
+<ul>
+  <li>Python</li>
+  <li>C</li>
+  <li>Java</li>
+  <li>R</li>
+  <li>Sql</li>
+</ul>
+<h2 style="font-family:verdana;">Contact Me</h2>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div></div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label></div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div></div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label></div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select></div> </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label></div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></div></div><br>
+  <div class="row">
+    <input type="submit" value="Submit"> </div>
+  </form></div>
+</body>
+</html>
